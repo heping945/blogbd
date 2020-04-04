@@ -1,0 +1,32 @@
+version: '3'
+
+volumes:
+  db_dev:
+  static:
+  blogapp:
+
+services:
+  blog:
+    build:
+      context: .
+      dockerfile: ./docker/dev/Dockerfile
+    image: blog_dev
+    container_name: blog_dev
+    working_dir: /app
+    volumes:
+      - static:/app/blog/collect_static
+      - /f/dockerdir/demotest/blog:/app/blog
+    ports:
+      - "8000:8000"
+    command: /start.sh
+    depends_on:
+        - db
+  db:
+    image: mysql:5.7.27
+    environment:
+        - MYSQL_DATABASE=db06
+        - MYSQL_ROOT_PASSWORD=postgres
+    volumes:
+      - db_dev:/var/lib/mysql:rw
+    restart: always
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --init-connect='SET NAMES utf8mb4;' --innodb-flush-log-at-trx-commit=0

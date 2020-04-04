@@ -1,0 +1,89 @@
+ALLUSERSPROFILE----->C:\ProgramData
+APPDATA----->C:\Users\pinge\AppData\Roaming
+COMMONPROGRAMFILES----->C:\Program Files\Common Files
+COMMONPROGRAMFILES(X86)----->C:\Program Files (x86)\Common Files
+COMMONPROGRAMW6432----->C:\Program Files\Common Files
+COMPUTERNAME----->LAPTOP-NSHTDK3K
+COMSPEC----->C:\WINDOWS\system32\cmd.exe
+DJANGO_SETTINGS_MODULE----->realbackend.settings.dev
+DRIVERDATA----->C:\Windows\System32\Drivers\DriverData
+FLASK_ENV----->dev
+FPS_BROWSER_APP_PROFILE_STRING----->Internet Explorer
+FPS_BROWSER_USER_PROFILE_STRING----->Default
+GOLAND----->d:\Program Files\JetBrains\GoLand\bin;
+GOPATH----->D:\Gogogo\
+HOMEDRIVE----->C:
+HOMEPATH----->\Users\pinge
+LOCALAPPDATA----->C:\Users\pinge\AppData\Local
+LOGONSERVER----->\\LAPTOP-NSHTDK3K
+NUMBER_OF_PROCESSORS----->8
+ONEDRIVE----->C:\Users\pinge\OneDrive
+OS----->Windows_NT
+PATH----->D:\Vens\backend\Scripts;D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;D:\Go\bin;d:\Program Files\Git\cmd;D:\database\mysql-8.0.17-winx64\bin\mysqld MySQL;D:\Program Files\redis\;C:\Users\pinge\AppData\Roaming\Python\Python36\Scripts;C:\vue3\node_modules\.bin;C:\cmder;C:\Users\pinge\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\pinge\AppData\Local\Programs\Python\Python36\;C:\Users\pinge\AppData\Local\Microsoft\WindowsApps;C:\Users\pinge\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;C:\Users\pinge\go\bin;d:\Program Files\JetBrains\PyCharm 2019.1\bin;D:\database\mysql-8.0.17-winx64\bin\;d:\Program Files\JetBrains\GoLand\bin;d:\Users\pinge\AppData\Local\Programs\Fiddler
+PATHEXT----->.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE----->AMD64
+PROCESSOR_IDENTIFIER----->Intel64 Family 6 Model 142 Stepping 12, GenuineIntel
+PROCESSOR_LEVEL----->6
+PROCESSOR_REVISION----->8e0c
+PROGRAMDATA----->C:\ProgramData
+PROGRAMFILES----->C:\Program Files
+PROGRAMFILES(X86)----->C:\Program Files (x86)
+PROGRAMW6432----->C:\Program Files
+PROMPT----->(backend) $P$G
+PSMODULEPATH----->C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+PUBLIC----->C:\Users\Public
+PYCHARM----->d:\Program Files\JetBrains\PyCharm 2019.1\bin;
+PYCHARM_DISPLAY_PORT----->52166
+PYCHARM_HOSTED----->1
+PYTHONIOENCODING----->UTF-8
+PYTHONPATH----->D:\workproject\realbackend;D:\Program Files\JetBrains\PyCharm 2019.1\helpers\pycharm_matplotlib_backend;D:\Program Files\JetBrains\PyCharm 2019.1\helpers\pycharm_display
+PYTHONUNBUFFERED----->1
+SESSIONNAME----->Console
+SYSTEMDRIVE----->C:
+SYSTEMROOT----->C:\WINDOWS
+TEMP----->C:\Users\pinge\AppData\Local\Temp
+TESTSQLPWD----->123
+TESTSQLUSER----->root
+TMP----->C:\Users\pinge\AppData\Local\Temp
+USERDOMAIN----->LAPTOP-NSHTDK3K
+USERDOMAIN_ROAMINGPROFILE----->LAPTOP-NSHTDK3K
+USERNAME----->pinge
+USERPROFILE----->C:\Users\pinge
+VIRTUAL_ENV----->D:\Vens\backend
+WINDIR----->C:\WINDOWS
+WORKON_HOME----->D:\Vens
+ZHP----->666
+_OLD_VIRTUAL_PATH----->D:\Program Files (x86)\NetSarang\Xshell 6\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Program Files\nodejs\;D:\Go\bin;d:\Program Files\Git\cmd;D:\database\mysql-8.0.17-winx64\bin\mysqld MySQL;D:\Program Files\redis\;C:\Users\pinge\AppData\Roaming\Python\Python36\Scripts;C:\vue3\node_modules\.bin;C:\cmder;C:\Users\pinge\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\pinge\AppData\Local\Programs\Python\Python36\;C:\Users\pinge\AppData\Local\Microsoft\WindowsApps;C:\Users\pinge\AppData\Roaming\npm;d:\Programs\Microsoft VS Code\bin;C:\Users\pinge\go\bin;d:\Program Files\JetBrains\PyCharm 2019.1\bin;D:\database\mysql-8.0.17-winx64\bin\;d:\Program Files\JetBrains\GoLand\bin;d:\Users\pinge\AppData\Local\Programs\Fiddler
+_OLD_VIRTUAL_PROMPT----->$P$G
+RUN_MAIN----->true
+SERVER_NAME----->kubernetes.docker.internal
+GATEWAY_INTERFACE----->CGI/1.1
+SERVER_PORT----->6655
+REMOTE_HOST----->
+CONTENT_LENGTH----->
+SCRIPT_NAME----->
+SERVER_PROTOCOL----->HTTP/1.1
+SERVER_SOFTWARE----->WSGIServer/0.2
+REQUEST_METHOD----->GET
+PATH_INFO----->/media/avatars/heping--730b0c/avatar/cdab6d1c.gif
+QUERY_STRING----->
+REMOTE_ADDR----->127.0.0.1
+CONTENT_TYPE----->text/plain
+HTTP_HOST----->127.0.0.1:6655
+HTTP_CONNECTION----->keep-alive
+HTTP_USER_AGENT----->Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+HTTP_ACCEPT----->image/webp,image/apng,image/*,*/*;q=0.8
+HTTP_SEC_FETCH_SITE----->cross-site
+HTTP_SEC_FETCH_MODE----->no-cors
+HTTP_ACCEPT_ENCODING----->gzip, deflate, br
+HTTP_ACCEPT_LANGUAGE----->zh-CN,zh;q=0.9
+HTTP_COOKIE----->csrftoken=EkZYYLnELLApWqzeUMEIP4KaKWIQegWPX5L2yB4HGMpyruQCAsVI01oTUt6AeQhG; sessionid=yo6r5ife9g18yl1x0if8iokquovnxd6x; username=heping; avatar=%2Fmedia%2Favatars%2Fheping--4355db%2Favatar%2F772e5ca0.jpg; token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNDM1NWRiOWEtZjBlNi00NDA3LWJjOTgtZmVjMTNkMmJlMmZmIiwidXNlcm5hbWUiOiJoZXBpbmciLCJleHAiOjE1ODQ4OTYyMzYsImVtYWlsIjoiNjAyMDEzNTk3QHFxLmNvbSIsIm9yaWdfaWF0IjoxNTg0MjkxNDM2fQ._ftQpFp2f6UvIaR41nUXWR8EtN_fInXVAicjTi8lT_c; id=4355db9a-f0e6-4407-bc98-fec13d2be2ff
+HTTP_IF_MODIFIED_SINCE----->Sun, 15 Mar 2020 15:54:01 GMT
+wsgi.input-----><_io.BufferedReader name=1640>
+wsgi.errors-----><_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'>
+wsgi.version----->(1, 0)
+wsgi.run_once----->False
+wsgi.url_scheme----->http
+wsgi.multithread----->True
+wsgi.multiprocess----->False
+wsgi.file_wrapper-----><class 'wsgiref.util.FileWrapper'>

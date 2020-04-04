@@ -1,2 +1,2 @@
-# blogbd
-with docker django app
+# realbackend
+blogbackend-django-drf

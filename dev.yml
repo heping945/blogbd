@@ -1,0 +1,49 @@
+version: '2'
+
+volumes:
+  db_dev_mysql:
+  db_dev_redis:
+
+services:
+  db:
+    image: blog_mysql
+    container_name: blog_mysql
+    build:
+      context: .
+      dockerfile: dockerconfig/dev/mysql/Dockerfile
+    environment:
+      - MYSQL_DATABASE=db05
+      - MYSQL_ROOT_PASSWORD=123
+    volumes:
+      - db_dev_mysql:/var/lib/mysql:rw
+    restart: always
+    command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --init-connect='SET NAMES utf8mb4;' --innodb-flush-log-at-trx-commit=0
+
+  redis:
+    image: blog_redis
+    container_name: blog_redis
+    build:
+      context: .
+      dockerfile: dockerconfig/dev/redis/Dockerfile
+    volumes:
+      - db_dev_redis:/data
+    ports:
+      - "6379:6379"
+  blog:
+    build:
+      context: .
+      dockerfile: dockerconfig/dev/app/Dockerfile
+    image: blog_dev
+    container_name: blog_dev
+    working_dir: /app
+    volumes:
+      - ./realbackend:/app/realbackend
+    ports:
+      - "6655:8000"
+    command: /start.sh
+    depends_on:
+      - db
+      - redis
+    links:
+      - db
+      - redis
