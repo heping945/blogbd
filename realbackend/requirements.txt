@@ -51,7 +51,7 @@ social-auth-core==3.2.0
 tablib==0.13.0
 Unidecode==1.1.1
 uritemplate==3.0.0
-urllib3==1.25.3
+urllib3==1.26.5
 virtualenv==16.7.7
 virtualenv-clone==0.5.3
 xadmin==0.6.1
